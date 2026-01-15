@@ -1,0 +1,20 @@
+import java.io.*;
+public class ExcepTest {
+  public static void main(String args[]){
+    try{
+      int a[]= new int[2];
+      System.out.println("Access element three: "+a[0]);
+    }
+    catch(ArrayIndexOutOfBoundsException e){
+      System.out.println("Exception thrown: "+e);
+    }
+    finally{
+      System.out.println("Always bla bla");
+    }
+    System.out.println("Out of the block");
+    throw new ArithmeticException("Not eligibel go")
+    
+
+  }
+  
+}

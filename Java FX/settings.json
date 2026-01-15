@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "c:/Users/AUW/Desktop/javafx/lib/**/*.jar"
+    ],
+    "javafx.project.vmArgs": "--module-path \"c:/Users/AUW/Desktop/javafx/lib\" --add-modules javafx.controls,javafx.fxml"
+}
